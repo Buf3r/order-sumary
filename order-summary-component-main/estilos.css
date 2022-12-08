@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-image: url();
+}
+
+
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+.main{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.caja{
+display: flex;
+flex-direction: column;
+width: 375px;
+height: 620px;
+margin: 40vw;
+margin-top: 10vw;
+box-shadow: 2px 2px rgb(95, 93, 93);
+border-radius: 25px;
+overflow: hidden;
+background-color: white;
+
+
+}
+.foto{
+   width: 100%;
+}
+.pagar{
+   margin-left: 10%;
+    background-color:   hsl(245, 75%, 52%);
+    color: white;
+    width: 300px;
+    height: 45px;
+    border-radius: 15px;
+    text-align: center;
+    border: 0ch;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+.cancelar{
+    padding-top: 10%;
+    border: 0ch;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+
+}
+.titulo{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    color: rgb(54, 50, 50);
+}
+.principal{
+    display: flex;
+    align-content: center;
+    
+}
+.contenido{
+    display: flex;
+    margin: 10%;
+
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    width: 300px;
+    height: 85px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    
+}
+.titulo{
+    margin-top: 5%;
+    text-align: center;
+}
+.parrafo{
+    font-size: 16px;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    width: 300px;
+    color: hsl(224, 23%, 55%);
+}
+.precio{
+    color: hsl(224, 23%, 55%);
+    
+}
+.renovar{
+    margin-left: 15px;
+}
+.nota{
+    margin-left: 15px;
+}
+.cambio{
+    color: hsl(245, 75%, 52%);
+    margin-left: 35px;
+}
